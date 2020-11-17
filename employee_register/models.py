@@ -8,7 +8,7 @@ class Roles(models.Model):
 
     def __str__(self):
         return self.title
-        
+
 class Employee(models.Model):
     full_name = models.CharField(max_length=100,null=False,blank=False)
     emp_code = models.CharField(max_length=3,null=False,blank=False)
